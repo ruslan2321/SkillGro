@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Badge from '@mui/material/Badge'
 import LoginIcon from '@mui/icons-material/Login'
+import Login from './Pages/Login'
 
 const Header = () => {
 
@@ -13,6 +15,11 @@ const Header = () => {
     const add2 = () =>{
       setCount_1(count_1 + 1)
     }
+
+		const link = () =>{
+			push('./components/pages/Login') 
+		}
+
 
 		return (
 			<header className='w-full h-15'>
@@ -85,9 +92,8 @@ const Header = () => {
 								<img src='img/Vector (3).png' alt='' />
 							</button>
 						</Badge>
-
-						<button className='bg-[#FFC224] w-[7rem] h-[3rem] rounded-2xl border-[#d3a835] border-solid border-[3px] transition-all hover:bg-[#d3a835] hover:text-white '>
-							Log in <LoginIcon/>
+						<button className='bg-[#FFC224] w-[7rem] h-[3rem] rounded-2xl border-[#d3a835] border-solid border-[3px] transition-all hover:bg-[#d3a835] hover:text-white'>
+							Log In <LoginIcon/>
 						</button>
 					</div>
 				</div>

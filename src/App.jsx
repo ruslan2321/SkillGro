@@ -9,7 +9,8 @@ import StorefrontIcon from '@mui/icons-material/Storefront'
 import Group from '@mui/icons-material/Group'
 import People from '@mui/icons-material/Person'
 import Star from '@mui/icons-material/Star'
-
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
+import PersonIcon from '@mui/icons-material/Person'
 
 
 const App = () => {
@@ -413,7 +414,128 @@ const App = () => {
 					</div>
 				</div>
 			</div>
-			<div className=''>
+			<div className='flex justify-center flex-col bg-[#282568] items-center gap-[1rem] mt-3 p-[4rem]'>
+				<div className='bg-[#5751E1] rounded-[20px] p-2 mt-3 text-white'>
+					<p>How We Start Journey</p>
+				</div>
+				<h1 className='text-white text-5xl font-bold'>
+					Start your Learning Journey Today!
+				</h1>
+				<p className='text-[#ACAACC] text-center'>
+					Groove’s intuitive shared inbox makesteam members together organize,
+					prioritize and.In this episode.
+				</p>
+				<div className='flex gap-4 items-center'>
+					<div className='flex flex-col items-center'>
+						<img src='img/im.png' alt='' />
+						<h1 className='text-white text-[20px] font-bold'>
+							Learn with Experts
+						</h1>
+						<p className='text-white text-center w-[15rem]'>
+							Curate anding area share Pluralsight content to reach your
+						</p>
+					</div>
+					<div className='flex flex-col items-center pt-3'>
+						<img src='img/Im (2).png' alt='' />
+						<h1 className='text-white text-[20px] font-bold'>Learn Anything</h1>
+						<p className='text-white text-center w-[15rem]'>
+							Curate anding area share Pluralsight content to reach your
+						</p>
+					</div>
+					<div className='flex flex-col items-center pt-2'>
+						<img src='img/Im (3).png' alt='' />
+						<h1 className='text-white text-[20px] font-bold'>Learn Anything</h1>
+						<p className='text-white text-center w-[15rem]'>
+							Curate anding area share Pluralsight content to reach your
+						</p>
+					</div>
+					<div className='flex flex-col items-center pt-3'>
+						<img src='img/Im (4).png' alt='' />
+						<h1 className='text-white text-[20px] font-bold'>Learn Anything</h1>
+						<p className='text-white text-center w-[15rem]'>
+							Curate anding area share Pluralsight content to reach your
+						</p>
+					</div>
+				</div>
+				<div className='flex  gap-3 mt-6 '>
+					<div className='bg-white w-[35rem] h-[14rem] rounded-[20px] flex items-center p-[2rem] flex-col gap-3'>
+						<h1 className='text-3xl font-bold text-[#161439]'>
+							Become a Instructor
+						</h1>
+						<p className='text-center'>
+							To take a trivial example, which of us undertakes physical
+							exercise yes is this happen here.
+						</p>
+						<button className='bg-[#5751E1] w-[155px] h-[55px] rounded-full text-white font-bold shadow-[7px_7px_0px_0px_#030170] flex items-center justify-center transition-all hover:shadow-[4px_4px_5px_0px_#030170]'>
+							Apply Now <ArrowForwardIcon />
+						</button>
+					</div>
+					<div className='bg-white w-[35rem] h-[14rem] rounded-[20px] flex items-center p-[2rem] flex-col gap-3'>
+						<h1 className='text-3xl font-bold text-[#161439]'>
+							Become a Student
+						</h1>
+						<p className='text-center'>
+							Join millions of people from around the world learning together.
+							Online learning.
+						</p>
+						<button className='bg-[#5751E1] w-[155px] h-[55px] rounded-full text-white font-bold shadow-[7px_7px_0px_0px_#030170] flex items-center justify-center transition-all hover:shadow-[4px_4px_5px_0px_#030170]'>
+							Apply Now <ArrowForwardIcon />
+						</button>
+					</div>
+				</div>
+			</div>
+			<div className='flex justify-center flex-col  items-center gap-3'>
+				<div className='bg-[#EFEEFE] rounded-[20px] p-2 mt-3 text-[#5751E1]'>
+					<p>How We Start Journey</p>
+				</div>
+				<h1 className='text-5xl font-bold'>Our Latest News Feed</h1>
+				<p className='text-[#6D6C80]'>
+					when known printer took a galley of type scrambl edmake
+				</p>
+				<div className='flex gap-3'>
+					<div className='w-[25rem] h-[13rem] border-[#B5B5C3] border-[3px] border-solid rounded-[15px] flex items-start flex-col gap-3 p-3'>
+						<div className='bg-[#5751E1] rounded-[20px] p-2 mt-3 text-[#5751E1]'>
+							<p className='text-white'>Marketing</p>
+						</div>
+						<div className='flex gap-2 '>
+							<CalendarMonthIcon sx={{ color: '#5751E1' }} />
+							<p>20 July, 2024</p>
+							<PersonIcon sx={{ color: '#5751E1' }} />
+							<p>by Admin</p>
+						</div>
+						<h1 className='text-2xl font-bold'>
+							How To Become idiculously Self-Aware In 20 Minutes
+						</h1>
+					</div>
+					<div className='w-[25rem] h-[13rem] border-[#B5B5C3] border-[3px] border-solid rounded-[15px] flex items-start flex-col gap-3 p-3'>
+						<div className='bg-[#5751E1] rounded-[20px] p-2 mt-3 text-[#5751E1]'>
+							<p className='text-white'>Marketing</p>
+						</div>
+						<div className='flex gap-2 '>
+							<CalendarMonthIcon sx={{ color: '#5751E1' }} />
+							<p>20 July, 2024</p>
+							<PersonIcon sx={{ color: '#5751E1' }} />
+							<p>by Admin</p>
+						</div>
+						<h1 className='text-2xl font-bold'>
+							Get Started With UI Design With Tips To Speed
+						</h1>
+					</div>
+					<div className='w-[25rem] h-[13rem] border-[#B5B5C3] border-[3px] border-solid rounded-[15px] flex items-start flex-col gap-3 p-3'>
+						<div className='bg-[#5751E1] rounded-[20px] p-2 mt-3 text-[#5751E1]'>
+							<p className='text-white'>Marketing</p>
+						</div>
+						<div className='flex gap-2 '>
+							<CalendarMonthIcon sx={{ color: '#5751E1' }} />
+							<p>20 July, 2024</p>
+							<PersonIcon sx={{ color: '#5751E1' }} />
+							<p>by Admin</p>
+						</div>
+						<h1 className='text-2xl font-bold'>
+							Make Your Own Expanding Contracting Content
+						</h1>
+					</div>
+				</div>
 			</div>
 		</>
 	)
